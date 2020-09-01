@@ -417,7 +417,7 @@ Actions.checkConditions = function(msg, cmd) {
 };
 
 Actions.checkTimeRestriction = function(msg, cmd) {
-	if(!cmd._timeRestriction) return true;
+	if(!cmd._timeRestriction) return false;
 	if(!msg.member) return false;
 	const mid = msg.member.id;
 	const cid = cmd._id;
