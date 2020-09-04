@@ -14,7 +14,7 @@
     "express": "^4.16.4"
   },
   "engines": {
-    "node.js": "12.x"
+    "node.js": "12.18.x"
   },
   "scripts": {
     "start": "node bot.js"
