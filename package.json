@@ -12,8 +12,6 @@
     "ytdl-core": "latest",
     "express-glitch-keepalive": "^0.2.0",
     "express": "^4.16.4"
-  },
-  "engines":{
     "node.js": "12.x"
   },
   "scripts": {
